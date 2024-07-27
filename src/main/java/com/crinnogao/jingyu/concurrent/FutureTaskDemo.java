@@ -2,7 +2,7 @@ package com.crinnogao.jingyu.concurrent;
 
 import java.util.concurrent.*;
 
-public class FutureTaskExample {
+public class FutureTaskDemo {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         // Executors 工具类
         // Executor 接口 能执行线程任务
