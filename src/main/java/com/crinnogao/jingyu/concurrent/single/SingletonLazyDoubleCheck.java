@@ -16,7 +16,7 @@ public class SingletonLazyDoubleCheck {
 
 
     // 提供全局的静态方法获取实例 未加同步控制 线程不安全
-    public static synchronized SingletonLazyDoubleCheck getInstance() {
+    public static SingletonLazyDoubleCheck getInstance() {
         // 第一次检查
         if (instance == null) {
             // 同步块 只有当instance为null时 才进入
